@@ -1,0 +1,43 @@
+.container_small-card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+
+
+    /*CSS das sombras*/
+  /*box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+  -webkit-box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+  -moz-box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);*/
+}
+
+.container_small-card-separator {
+  margin-top: 1rem;
+}
+
+.container_small-card-content {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+
+}
+
+.small-card_photo > img {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 220px;
+  min-width: 225px;
+  margin-right: 0.5rem;
+}
+
+.small-card_photo {
+  border-radius: 1rem;
+}
+
+
+.small-card_title  {
+  display: flex;
+  width: 100%;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}

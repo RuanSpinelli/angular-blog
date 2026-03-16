@@ -1,0 +1,56 @@
+.container_big-card {
+
+  height: 450px;
+  width: 420px;
+  border-radius: 1rem;
+
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  /*CSS das sombras*/
+  box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+  -webkit-box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+  -moz-box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+
+}
+
+.big-card_photo {
+  border-radius: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Faz a imagem ocupar toda a largura do container */
+.big-card_photo > img {
+
+  margin: 1rem;
+  width: 100%;
+  min-width: 400px;
+}
+
+.big-card_description > a > p{
+  margin: 1rem;
+  color: grey ;
+
+}
+
+
+.big-card_description {
+  border-radius: 1rem;
+}
+
+.big-card_title > h1 {
+  margin: 0.5rem;
+  font-size: 44px;
+}
+
