@@ -1,0 +1,29 @@
+@media screen and (max-width:600px){
+  .container_articles {
+
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .articles_others {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+
+  }
+
+  header {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+
+

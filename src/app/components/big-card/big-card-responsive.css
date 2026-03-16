@@ -1,0 +1,77 @@
+/* ==============================
+   CSS MOBILE RESPONSIVO
+   Para telas ≤ 700px
+   ============================== */
+@media screen and (max-width: 700px) {
+
+  /* Container do card */
+  .container_big-card {
+    width: 90%;                /* ocupa quase toda a tela */
+    max-width: 400px;          /* limita em telas maiores */
+    height: auto;              /* se ajusta ao conteúdo */
+    margin: 1rem auto;         /* centraliza horizontalmente com espaçamento */
+    padding: 0.5rem;           /* um pouco de espaço interno */
+    border-radius: 1rem;       /* cantos arredondados */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+    /*CSS das sombras*/
+    box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+    -webkit-box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+    -moz-box-shadow: 1px 30px 51px 9px rgba(43,43,43,0.75);
+  }
+
+  /* Container da imagem */
+  .big-card_photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    overflow: hidden;          /* evita que a imagem quebre borda arredondada */
+  }
+
+  /* Imagem dentro do card */
+  .big-card_photo > img {
+    width: 100%;               /* ocupa toda a largura do container */
+    height: auto;              /* mantém proporção */
+    display: block;            /* remove espaço extra abaixo da imagem */
+  }
+
+  /* Título do card */
+  .big-card_title > h1 {
+    font-size: 1.2rem;         /* tamanho proporcional ao celular */
+    margin: 0.5rem;
+    text-align: center;        /* centraliza o título */
+    line-height: 1.3rem;
+  }
+
+  /* Descrição do card */
+  .big-card_description {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .big-card_description > a > p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    color: grey;
+    text-align: center;        /* centraliza o texto */
+  }
+
+  /* Se precisar centralizar o card dentro de um container maior */
+  .cards_wrapper {             /* caso você tenha um wrapper geral */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;                 /* espaçamento entre cards */
+  }
+}

@@ -33,11 +33,14 @@
   border-radius: 1rem;
 }
 
+.small-card_title > h1 > a {
+font-size: 1.5rem;
+}
 
 .small-card_title  {
   display: flex;
   width: 100%;
-  border-radius: 1rem;
+
   justify-content: center;
   align-items: center;
 }

@@ -9,6 +9,6 @@ import { MenuBar } from "../../components/menu-bar/menu-bar";
   standalone: true,
   imports: [MenuTitle, BigCard, SmallCard, MenuBar],
   templateUrl: './home.html',
-  styleUrl: './home.css',
+  styleUrls: ['./home.css','./home-responsive.css'],
 })
 export class Home {}
