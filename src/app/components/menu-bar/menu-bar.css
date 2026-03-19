@@ -10,3 +10,11 @@
   list-style: none;
 }
 
+.container_menu_bar > img {
+  width: 1rem;
+}
+
+.home_icon {
+  width: 24px;
+  height: 24px;
+}

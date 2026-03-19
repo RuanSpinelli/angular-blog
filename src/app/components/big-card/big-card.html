@@ -2,19 +2,21 @@
 
 
   <div class="big-card_photo">
-    <img [src]="photoCover" height="200px" alt="">
-  </div>
-  <div class="big-card_title">
-    <h1><a href="#">{{cardTitle}}</a></h1>
-  </div>
-  <div class="big-card_description">
-    <a href="#">
-      <p>
-
-        {{cardDescription}}
-
-      </p>
+    <a [routerLink]="['content', id]">
+      <img [src]="photoCover" height="200px" alt="">
     </a>
+
+  </div>
+
+  <div class="big-card_title">
+    <h1><a [routerLink]="['content', id]">{{cardTitle}}</a></h1>
+  </div>
+  
+  <div class="big-card_description">
+    <p>
+      <a [routerLink]="['content', id]">{{cardDescription}}</a>
+    </p>
+
 
   </div>
 

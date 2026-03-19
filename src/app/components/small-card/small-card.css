@@ -21,11 +21,12 @@
 
 }
 
-.small-card_photo > img {
+.small-card_photo > a > img {
   border-radius: 1rem;
   padding: 0.5rem;
-  width: 220px;
-  min-width: 225px;
+
+  width: 250px;
+  min-width: 250px;
   margin-right: 0.5rem;
 }
 

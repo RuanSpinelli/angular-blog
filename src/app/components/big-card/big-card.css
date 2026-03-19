@@ -1,6 +1,17 @@
+:host {
+  background-color: transparent;
+  color: inherit;
+}
+
+.container_big-card,
+.container_big-card * {
+  background-color: transparent;
+
+}
+
 .container_big-card {
 
-  height: 450px;
+  /*height: 100%;*/
   width: 420px;
   border-radius: 1rem;
 
@@ -9,6 +20,7 @@
   margin-bottom: 4rem;
   border-radius: 1rem;
 
+  padding-bottom: 1rem;
 
   display: flex;
   flex-direction: column;
@@ -23,7 +35,7 @@
 }
 
 .big-card_photo {
-  border-radius: 1rem;
+  border-top-left-radius: 1rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -31,21 +43,30 @@
 }
 
 /* Faz a imagem ocupar toda a largura do container */
-.big-card_photo > img {
+.big-card_photo > a > img {
   border-radius: 1rem;
-  margin: 1rem;
+  /*margin: 1rem;*/
   width: 100%;
-  min-width: 400px;
+  /*min-width: 400px;*/
 }
 
-.big-card_description > a > p{
-  margin: 1rem;
+.big-card_photo > a {
+  width: 100%;
+  padding: 1rem;
+}
+
+.big-card_description > p > a{
+  margin-right: 1rem;
+  margin-left: 1rem;
   color: grey ;
+  display: flex;
+  justify-content: center;
 
 }
 
 
 .big-card_description {
+
   width: 100%;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
